@@ -1,13 +1,15 @@
 :host {
   display: block;
   min-height: 100vh;
-  color: #eee;
-  background: gray;
   font-family: sans-serif;
+  background: black;
 }
 
 nav {
   padding: 1rem;
+  background: transparent;
+  position: absolute;
+  z-index: 1;
 }
 
 a {

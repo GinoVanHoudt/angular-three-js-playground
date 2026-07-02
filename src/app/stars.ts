@@ -21,4 +21,4 @@ import { SceneGraph } from '../scene-graph';
     }
   `,
 })
-export class Stars {}
+export default class Stars {}
