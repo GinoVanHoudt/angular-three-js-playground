@@ -15,10 +15,10 @@ import { NgtsOrbitControls } from 'angular-three-soba/controls';
 @Component({
   selector: 'app-scene-graph',
   template: `
-    <ngt-mesh #mesh>
+<!--    <ngt-mesh #mesh>-->
 <!--      <ngt-box-geometry/>-->
-      <ngt-mesh-basic-material color="hotpink"/>
-    </ngt-mesh>
+<!--      <ngt-mesh-basic-material color="hotpink"/>-->
+<!--    </ngt-mesh>-->
     <ngt-group [rotation]="[0,0,1]">
       <ngts-points-buffer [positions]="sphere" [stride]="3" [options]="{ frustumCulled: false }">
         <ngts-point-material [options]="starMaterialOptions"
