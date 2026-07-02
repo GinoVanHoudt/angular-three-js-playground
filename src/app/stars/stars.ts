@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { NgtCanvas, NgtCanvasImpl, NgtCanvasContent } from 'angular-three/dom';
-import { SceneGraph } from '../scene-graph';
+import { SceneGraph } from '../stars/scene-graph';
 
 @Component({
   selector: 'app-stars',
   imports: [NgtCanvas, NgtCanvasImpl, NgtCanvasContent, SceneGraph],
   template: `
-    <ngt-canvas>
+    <ngt-canvas [camera]="{ position: [0, 0, 1] }">
       <app-scene-graph *canvasContent />
     </ngt-canvas>
   `,
