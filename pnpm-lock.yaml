@@ -26,21 +26,102 @@ importers:
       '@angular/router':
         specifier: ^22.0.0
         version: 22.0.4(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@angular/platform-browser@22.0.4(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2)))(rxjs@7.8.2)
+      '@dimforge/rapier3d-compat':
+        specifier: ^0.19.0
+        version: 0.19.3
+      '@monogrid/gainmap-js':
+        specifier: ^3.4.0
+        version: 3.4.0(three@0.182.0)
+      '@pmndrs/cannon-worker-api':
+        specifier: ^2.4.0
+        version: 2.4.0(three@0.182.0)
+      '@pmndrs/vanilla':
+        specifier: ^1.25.0
+        version: 1.25.0(three@0.182.0)
+      '@theatre/core':
+        specifier: ^0.7.2
+        version: 0.7.2
+      '@theatre/studio':
+        specifier: ^0.7.2
+        version: 0.7.2(@theatre/core@0.7.2)
+      '@tweakpane/core':
+        specifier: ^2.0.5
+        version: 2.0.5
       angular-three:
         specifier: ^4.0.0
         version: 4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(ngxtension@7.2.0(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(three@0.182.0)
+      angular-three-cannon:
+        specifier: ^4.0.0
+        version: 4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@pmndrs/cannon-worker-api@2.4.0(three@0.182.0))(cannon-es-debugger@1.0.0(cannon-es@0.20.0)(three@0.182.0)(typescript@6.0.3))(cannon-es@0.20.0)(three@0.182.0)
+      angular-three-postprocessing:
+        specifier: ^4.0.0
+        version: 4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(maath@0.10.8(@types/three@0.182.0)(three@0.182.0))(n8ao@1.10.2(postprocessing@6.39.2(three@0.182.0))(three@0.182.0))(postprocessing@6.39.2(three@0.182.0))(three-stdlib@2.36.1(three@0.182.0))(three@0.182.0)
+      angular-three-rapier:
+        specifier: ^4.0.0
+        version: 4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@dimforge/rapier3d-compat@0.19.3)(three-stdlib@2.36.1(three@0.182.0))(three@0.182.0)
+      angular-three-soba:
+        specifier: ^4.0.0
+        version: 4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@monogrid/gainmap-js@3.4.0(three@0.182.0))(@pmndrs/vanilla@1.25.0(three@0.182.0))(camera-controls@2.10.1(three@0.182.0))(hls.js@1.6.16)(maath@0.10.8(@types/three@0.182.0)(three@0.182.0))(meshline@3.3.1(three@0.182.0))(stats-gl@4.2.1(three@0.182.0))(three-custom-shader-material@6.4.0(three@0.182.0))(three-mesh-bvh@0.9.10(three@0.182.0))(three-stdlib@2.36.1(three@0.182.0))(three@0.182.0)(troika-three-text@0.52.4(three@0.182.0))
+      angular-three-theatre:
+        specifier: ^4.0.0
+        version: 4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@theatre/core@0.7.2)(@theatre/studio@0.7.2(@theatre/core@0.7.2))(three@0.182.0)
+      angular-three-tweakpane:
+        specifier: ^4.0.0
+        version: 4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@tweakpane/core@2.0.5)(tweakpane@4.0.5)
+      camera-controls:
+        specifier: ^2.10.0
+        version: 2.10.1(three@0.182.0)
+      cannon-es:
+        specifier: ^0.20.0
+        version: 0.20.0
+      cannon-es-debugger:
+        specifier: ^1.0.0
+        version: 1.0.0(cannon-es@0.20.0)(three@0.182.0)(typescript@6.0.3)
+      hls.js:
+        specifier: ^1.6.0
+        version: 1.6.16
+      maath:
+        specifier: ^0.10.8
+        version: 0.10.8(@types/three@0.182.0)(three@0.182.0)
+      meshline:
+        specifier: ^3.3.0
+        version: 3.3.1(three@0.182.0)
+      n8ao:
+        specifier: ^1.10.0
+        version: 1.10.2(postprocessing@6.39.2(three@0.182.0))(three@0.182.0)
       ngxtension:
         specifier: ^7.0.0
         version: 7.2.0(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2)
+      postprocessing:
+        specifier: ^6.38.0
+        version: 6.39.2(three@0.182.0)
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2
+      stats-gl:
+        specifier: ^4.1.0
+        version: 4.2.1(three@0.182.0)
       three:
         specifier: ^0.182.0
         version: 0.182.0
+      three-custom-shader-material:
+        specifier: ^6.4.0
+        version: 6.4.0(three@0.182.0)
+      three-mesh-bvh:
+        specifier: ^0.9.0
+        version: 0.9.10(three@0.182.0)
+      three-stdlib:
+        specifier: ^2.36.0
+        version: 2.36.1(three@0.182.0)
+      troika-three-text:
+        specifier: ^0.52.0
+        version: 0.52.4(three@0.182.0)
       tslib:
         specifier: ^2.3.0
         version: 2.8.1
+      tweakpane:
+        specifier: ^4.0.5
+        version: 4.0.5
     devDependencies:
       '@angular/build':
         specifier: ^22.0.5
@@ -391,6 +472,9 @@ packages:
 
   '@dimforge/rapier3d-compat@0.12.0':
     resolution: {integrity: sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==}
+
+  '@dimforge/rapier3d-compat@0.19.3':
+    resolution: {integrity: sha512-mMVdSj1PRTT108s9Swbu2GQOmHbn8kbJANRV5xfczL3s0T4vkgZAuoMRgvBzQcHanpKusbC0ZJj6z3mC3aj3vg==}
 
   '@emnapi/core@1.11.1':
     resolution: {integrity: sha512-RSvbQmHzdKzNsLYa/wHrbc3KN4sYLKAdPZxqiM2HATqv/SBk2/ENSHpvXGaLOMcsAyz0poEGqkmmKYG3OWiJEQ==}
@@ -1232,6 +1316,11 @@ packages:
       '@cfworker/json-schema':
         optional: true
 
+  '@monogrid/gainmap-js@3.4.0':
+    resolution: {integrity: sha512-2Z0FATFHaoYJ8b+Y4y4Hgfn3FRFwuU5zRrk+9dFWp4uGAdHGqVEdP7HP+gLA3X469KXHmfupJaUbKo1b/aDKIg==}
+    peerDependencies:
+      three: '>= 0.159.0'
+
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.4':
     resolution: {integrity: sha512-LCkGo6JDfaBhgST7UpPWgNgLINpcpabaHfyz5OBx75nUYxBsaEPxjnyNjWpeb/xBup/682QnBfRBy2/LvPutZQ==}
     cpu: [arm64]
@@ -1574,6 +1663,16 @@ packages:
     resolution: {integrity: sha512-tmmZ3lQxAe/k/+rNnXQRawJ4NjxO2hqiOLTHvWchtGZULp4RyFeh6aU4XdOYBFe2KE1oShQTv4AblOs2iOrNnQ==}
     engines: {node: '>= 10.0.0'}
 
+  '@pmndrs/cannon-worker-api@2.4.0':
+    resolution: {integrity: sha512-oJA1Bboc+WObksRaGDKJG0Wna9Q75xi1MdXVAZ9qXzBOyPsadmAnrmiKOEF0R8v/4zsuJElvscNZmyo3msbZjA==}
+    peerDependencies:
+      three: '>=0.139'
+
+  '@pmndrs/vanilla@1.25.0':
+    resolution: {integrity: sha512-Dx3dLndPL5ibjyOCtkFMVYBvVK44xe8zxnVG1mjVOEytfBqNvfF8eMuCJyptZUMgiLl04UjXbytNeyIhIE9Shw==}
+    peerDependencies:
+      three: '>=0.137'
+
   '@rollup/rollup-android-arm-eabi@4.60.2':
     resolution: {integrity: sha512-dnlp69efPPg6Uaw2dVqzWRfAWRnYVb1XJ8CyyhIbZeaq4CA5/mLeZ1IEt9QqQxmbdvagjLIm2ZL8BxXv5lH4Yw==}
     cpu: [arm]
@@ -1751,6 +1850,17 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
+  '@theatre/core@0.7.2':
+    resolution: {integrity: sha512-IDQa/6WY7mIJAtsSd4EgNcM0IUZkl+FrqZ8DdYiCVTFap9ARDNmrngJOeFjJOsnnaHlc5GdEB/jj7fsjbIrAzQ==}
+
+  '@theatre/dataverse@0.7.2':
+    resolution: {integrity: sha512-YyfoyX7EyhFUY2OM5fsM0LPrs1SdgLwpiTMkkvTIoZLdOwvQhstjYq4Yz/8ZncJlRoTWvakfmgvCaBN+QuBYxg==}
+
+  '@theatre/studio@0.7.2':
+    resolution: {integrity: sha512-p6LTKzJWVlcHkpGzIlNHh9AkGbB3E+0q9Pjxv+OJoTDe1IK+CMKW695Wp+1//lB4vfC9qShe4z/p+Zaj1q8KtA==}
+    peerDependencies:
+      '@theatre/core': '*'
+
   '@ts-morph/common@0.26.1':
     resolution: {integrity: sha512-Sn28TGl/4cFpcM+jwsH1wLncYq3FtN/BIpem+HOygfBWPT5pAeS5dB4VFVzV8FbnOKHpDLZmvAl4AjPEev5idA==}
 
@@ -1764,6 +1874,9 @@ packages:
   '@tufjs/models@4.1.0':
     resolution: {integrity: sha512-Y8cK9aggNRsqJVaKUlEYs4s7CvQ1b1ta2DVPyAimb0I2qhzjNk+A+mxvll/klL0RlfuIUei8BF7YWiua4kQqww==}
     engines: {node: ^20.17.0 || >=22.9.0}
+
+  '@tweakpane/core@2.0.5':
+    resolution: {integrity: sha512-punBgD5rKCF5vcNo6BsSOXiDR/NSs9VM7SG65QSLJIxfRaGgj54ree9zQW6bO3pNFf3AogiGgaNODUVQRk9YqQ==}
 
   '@tweenjs/tween.js@23.1.3':
     resolution: {integrity: sha512-vJmvvwFxYuGnF2axRtPYocag6Clbb5YS7kLL+SO/TeVFzHqDIWrNKYtcsPMibjDx9O+bu+psAy9NKfWklassUA==}
@@ -1850,8 +1963,100 @@ packages:
     resolution: {integrity: sha512-0ZzY9mjqV7gop/AH8pIBiAS8giXP7WcSiUfoFYIzYAK9QC5c37E4SIVtJVBMwlURc0/uNt2o4RcNRvdHa4CJ5w==}
     engines: {node: '>= 14.0.0'}
 
+  angular-three-cannon@4.2.2:
+    resolution: {integrity: sha512-/odJxVPAyEBE7T7RhbIFXAGeCRIAq6aBScaN700T/H4i8BWEICfg9HxftAyCUAYN24N2K2v2JDMcyrSB/pA6OQ==}
+    peerDependencies:
+      '@angular/common': '>=20.0.0 <22.0.0'
+      '@angular/core': '>=20.0.0 <22.0.0'
+      '@pmndrs/cannon-worker-api': ^2.0.0
+      cannon-es: '>=0.20.0 <0.21.0'
+      cannon-es-debugger: ^1.0.0
+      three: '>=0.157.0 <0.183.0'
+    peerDependenciesMeta:
+      cannon-es-debugger:
+        optional: true
+
   angular-three-plugin@4.2.2:
     resolution: {integrity: sha512-phtFy4fXzX2yKWzFty9RsyuG9pRcwosJHlMEcqEdQ86qH3nztmA7ZYKAxpPcV1Qy3acj10vzT1nfo8h+BETqNg==}
+
+  angular-three-postprocessing@4.2.2:
+    resolution: {integrity: sha512-wztwiH8IQfsq+2yDksxWYgqntbpD2aTBwqZVE4tMXy9m+SXJ0uPSkwy402UEkXVIvL0+lfT8UpFviUdQiSVzsg==}
+    peerDependencies:
+      '@angular/common': '>=20.0.0 <22.0.0'
+      '@angular/core': '>=20.0.0 <22.0.0'
+      maath: '>=0.10.0 <0.11.0'
+      n8ao: '>=1.9.4 <2.0.0'
+      postprocessing: ^6.0.0
+      three: '>=0.157.0 <0.183.0'
+      three-stdlib: ^2.0.0
+    peerDependenciesMeta:
+      n8ao:
+        optional: true
+
+  angular-three-rapier@4.2.2:
+    resolution: {integrity: sha512-WnWmZZ03+XXymvQyOsW9LQoPapzY4kprQfaQhq5HAbGMvPw/wbH8yeAIlDB19tziqfuiKLaijqtlL1lNghDW3Q==}
+    peerDependencies:
+      '@angular/common': '>=20.0.0 <22.0.0'
+      '@angular/core': '>=20.0.0 <22.0.0'
+      '@dimforge/rapier3d-compat': '>=0.14.0 <0.20.0'
+      three: '>=0.157.0 <0.183.0'
+      three-stdlib: ^2.0.0
+
+  angular-three-soba@4.2.2:
+    resolution: {integrity: sha512-ZF8XoOsMoA5Ft/zcfDlSAh+WM/SV8X+yS7seUMppUwOI/LH2POy/3kgNOm6+cGluvMIyUoOhZOHzDmoHdMnCjA==}
+    peerDependencies:
+      '@angular/common': '>=20.0.0 <22.0.0'
+      '@angular/core': '>=20.0.0 <22.0.0'
+      '@monogrid/gainmap-js': ^3.0.0
+      '@pmndrs/vanilla': ^1.24.0
+      camera-controls: ^2.8.0
+      hls.js: '>=1.5.0'
+      maath: '>=0.10.0 <0.11.0'
+      meshline: ^3.1.0
+      stats-gl: '>=2.0.0'
+      three: '>=0.157.0 <0.183.0'
+      three-custom-shader-material: '>=5.5.0 <6.5.0'
+      three-mesh-bvh: '>=0.5.0 <0.10.0'
+      three-stdlib: ^2.0.0
+      troika-three-text: '>=0.47.0 <0.53.0'
+    peerDependenciesMeta:
+      '@monogrid/gainmap-js':
+        optional: true
+      '@pmndrs/vanilla':
+        optional: true
+      camera-controls:
+        optional: true
+      hls.js:
+        optional: true
+      maath:
+        optional: true
+      meshline:
+        optional: true
+      stats-gl:
+        optional: true
+      three-custom-shader-material:
+        optional: true
+      three-mesh-bvh:
+        optional: true
+      troika-three-text:
+        optional: true
+
+  angular-three-theatre@4.2.2:
+    resolution: {integrity: sha512-owQasP8Fl35qiEJoYpRN2Y4JNhXAsz/CHfxab7Q0/X155zlB7zISb2Ef573VCzLtF1kFkAMBytETPvoV/Qf9Pw==}
+    peerDependencies:
+      '@angular/common': '>=20.0.0 <22.0.0'
+      '@angular/core': '>=20.0.0 <22.0.0'
+      '@theatre/core': '>=0.7.0 <0.8.0'
+      '@theatre/studio': '>=0.7.0 <0.8.0'
+      three: '>=0.157.0 <0.183.0'
+
+  angular-three-tweakpane@4.2.2:
+    resolution: {integrity: sha512-lYOulc8hf+FAZW18EUZEDsNsas7sXUxUAYxV+7qEq+bx8+PQYMs7nClP011xRv2MyXxpETXyX/3m5brHCpAcjg==}
+    peerDependencies:
+      '@angular/common': '>=20.0.0 <22.0.0'
+      '@angular/core': '>=20.0.0 <22.0.0'
+      '@tweakpane/core': ^2.0.0
+      tweakpane: ^4.0.0
 
   angular-three@4.2.2:
     resolution: {integrity: sha512-wAp9UahR3Y6rfYTi5Xc0kGdg8vUYA1LvZjC1kyG9+p5Y2LAZ06WkpPKZBH8xC0jhIo9ZyhG5D5gPBz2Th5cT/A==}
@@ -1923,6 +2128,9 @@ packages:
     resolution: {integrity: sha512-NvcGjG/7AVUAfRbvrJmHunDQS9uHnE6Q/7AkaPr8oKE8HjOlpjRG5075z/th2Tmlezk3VlaaS8+X9I1RwHJMQw==}
     engines: {node: '>=18.0.0'}
 
+  bidi-js@1.0.3:
+    resolution: {integrity: sha512-RKshQI1R3YQ+n9YJz2QQ147P66ELpa1FQEg20Dk8oW9t2KgLbpDLLp9aGZ7y8WHSshDknG0bknqGw5/tyCs5tw==}
+
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
@@ -1971,8 +2179,26 @@ packages:
     resolution: {integrity: sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg==}
     engines: {node: '>= 0.4'}
 
+  camera-controls@2.10.1:
+    resolution: {integrity: sha512-KnaKdcvkBJ1Irbrzl8XD6WtZltkRjp869Jx8c0ujs9K+9WD+1D7ryBsCiVqJYUqt6i/HR5FxT7RLASieUD+Q5w==}
+    peerDependencies:
+      three: '>=0.126.1'
+
   caniuse-lite@1.0.30001800:
     resolution: {integrity: sha512-MMHtuAz9Ys840zAY5F4k6fV5GaivZ9sPk+nz0mY+GYVzRBnYkN0mpqkSR92oWRQ19yQWo4HvBV/FnC16AJX8MA==}
+
+  cannon-es-debugger@1.0.0:
+    resolution: {integrity: sha512-sE9lDOBAYFKlh+0w+cvWKwUhJef8HYnUSVPWPL0jD15MAuVRQKno4QYZSGxgOoJkMR3mQqxL4bxys2b3RSWH8g==}
+    peerDependencies:
+      cannon-es: 0.x
+      three: 0.x
+      typescript: '>=3.8'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  cannon-es@0.20.0:
+    resolution: {integrity: sha512-eZhWTZIkFOnMAJOgfXJa9+b3kVlvG+FX4mdkpePev/w/rP5V8NRquGyEozcjPfEoXUlb+p7d9SUcmDSn14prOA==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2423,6 +2649,9 @@ packages:
     resolution: {integrity: sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw==}
     engines: {node: 18 || 20 || >=22}
 
+  glsl-noise@0.0.0:
+    resolution: {integrity: sha512-b/ZCF6amfAUb7dJM/MxRs7AetQEahYzJ8PtgfrmEdtw6uyGOr+ZSGtgjFm6mfsBkxJ4d2W7kg+Nlqzqvn3Bc0w==}
+
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
@@ -2445,6 +2674,9 @@ packages:
   hasown@2.0.4:
     resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
+
+  hls.js@1.6.16:
+    resolution: {integrity: sha512-VSIRpLfRwlAAdGL4wiTucx2ScRipo0ed1FBatWkyt832jC4CReKstga6yIhYVwGu9LOBjuX9wzmRMeQdBJtzEA==}
 
   hono@4.12.27:
     resolution: {integrity: sha512-1yrb/+w6HWQJrUCLkJ2IF5jNIPvvFkblV5RNOYl6bV+OA6p9GLcMpHFFGTosSvHvcAUibuUukRqhlYI4z32C7Q==}
@@ -2506,6 +2738,9 @@ packages:
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
+
+  immediate@3.0.6:
+    resolution: {integrity: sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==}
 
   immutable@5.1.9:
     resolution: {integrity: sha512-m8nVez3rwrgmWxtLMt1ZYXB2Lv7OKYn/disyxAlSDYAlKSlFoPPfIAmAM/M5xqL4m4C/wAPw7S2/CNaUii1Hxg==}
@@ -2573,6 +2808,9 @@ packages:
 
   is-potential-custom-element-name@1.0.1:
     resolution: {integrity: sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==}
+
+  is-promise@2.2.2:
+    resolution: {integrity: sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ==}
 
   is-promise@4.0.0:
     resolution: {integrity: sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==}
@@ -2666,6 +2904,9 @@ packages:
   libvips@0.0.2:
     resolution: {integrity: sha512-E+jHGKSgWuep9t2oFvV9ll6i0YUVVWyNaMgr3zKP4hLYZmaP2qTQeSrGe7tvhUgwcLD8gn2nacgdi1WxMmOJMw==}
 
+  lie@3.3.0:
+    resolution: {integrity: sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==}
+
   lines-and-columns@2.0.3:
     resolution: {integrity: sha512-cNOjgCnLB+FnvWWtyRTzmB3POJ+cXxTA81LoW7u8JdmhfXzriropYwpjShnz1QLLWsQwY7nIxoDmcPTwphDK9w==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -2677,6 +2918,9 @@ packages:
   lmdb@3.5.4:
     resolution: {integrity: sha512-9FKQA6G1MMtqNxfxvSBNXD/axeG2QRjYbNh0/ykRL5xYcRbCm2vXq7B9bhc7nSuKdHzr8/BHIwfPuYYH1UsXXw==}
     hasBin: true
+
+  lodash-es@4.18.1:
+    resolution: {integrity: sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==}
 
   log-symbols@4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
@@ -2699,6 +2943,12 @@ packages:
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
+
+  maath@0.10.8:
+    resolution: {integrity: sha512-tRvbDF0Pgqz+9XUa4jjfgAQ8/aPKmQdWXilFu2tMy4GWj4NOsx99HlULO4IeREfbO3a0sA145DZYyvXPkybm0g==}
+    peerDependencies:
+      '@types/three': '>=0.134.0'
+      three: '>=0.134.0'
 
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
@@ -2726,6 +2976,11 @@ packages:
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
+
+  meshline@3.3.1:
+    resolution: {integrity: sha512-/TQj+JdZkeSUOl5Mk2J7eLcYTLiQm2IDzmlSvYm7ov15anEcDJ92GHqqazxTSreeNgfnYu24kiEvvv0WlbCdFQ==}
+    peerDependencies:
+      three: '>=0.137'
 
   meshoptimizer@0.22.0:
     resolution: {integrity: sha512-IebiK79sqIy+E4EgOr+CAw+Ke8hAspXKzBd0JdgEmPHiAwmvEj2S4h1rfvo+o/BnfEYd/jAOg5IeeIjzlzSnDg==}
@@ -2829,6 +3084,12 @@ packages:
   mute-stream@3.0.0:
     resolution: {integrity: sha512-dkEJPVvun4FryqBmZ5KhDo0K9iDXAwn08tMLDinNdRBNPcYEDiWYysLcc6k3mjTMlbP9KyylvRpd4wFtwrT9rw==}
     engines: {node: ^20.17.0 || >=22.9.0}
+
+  n8ao@1.10.2:
+    resolution: {integrity: sha512-gh4i0xFP8DiRaNoX75kPiG3kGl7PmX9SW/OIn3Sv/YZmHrA8faLdSU1MM6M4gKtfKpxDnZagodu8FKob5URCVw==}
+    peerDependencies:
+      postprocessing: '>=6.30.0'
+      three: '>=0.137'
 
   nanoid@3.3.15:
     resolution: {integrity: sha512-y7Wygv/7mEOvxTuEQDB8StXdMRBWf1kR/tlhAzBRUFkB2jfcLOAxO/SHmOO2zgz1pVgK29/kyupn059/bCHdjA==}
@@ -3078,6 +3339,11 @@ packages:
     resolution: {integrity: sha512-vuwillviilfKZsg0VGj5R/YwwcHx4SLsIOI/7K6mQkWx+l5cUHTjj5g0AasTBcyXsbfTgrwsUNmVUb5xVwyPwg==}
     engines: {node: ^10 || ^12 || >=14}
 
+  postprocessing@6.39.2:
+    resolution: {integrity: sha512-AxPY+xFyVOsz+8bbHSyQBoOK4AUqSQspTXXIsNcKhmGJRm/afHRAwZ8bKC02AeSPII0PW6lbCN84SgAoWFsKKA==}
+    peerDependencies:
+      three: '>= 0.168.0 < 0.186.0'
+
   potpack@1.0.2:
     resolution: {integrity: sha512-choctRBIV9EMT9WGAZHn3V7t0Z2pMQyl0EZE6pFc/6ml3ssw7Dlf/oAOvFwjm1HVsqfQN8GfeFyJ+d8tRzqueQ==}
 
@@ -3093,6 +3359,9 @@ packages:
   proc-log@6.1.0:
     resolution: {integrity: sha512-iG+GYldRf2BQ0UDUAd6JQ/RwzaQy6mXmsk/IzlYyal4A4SNFw54MeH4/tLkF4I5WoWG9SQwuqWzS99jaFQHBuQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
+
+  promise-worker-transferable@1.0.4:
+    resolution: {integrity: sha512-bN+0ehEnrXfxV2ZQvU2PetO0n4gqBD4ulq3MI1WOPLgr7/Mg9yRQkX5+0v1vagr74ZTsl7XtzlaYDo2EuCeYJw==}
 
   property-graph@3.0.0:
     resolution: {integrity: sha512-TnzxUsttmGtw+OiU0LDw+0FlMbJ8vV8pOjyDI7+Kdni4Tj0hW5BFh7TatQu7Y68hcvvFmiFOHilKShsA4R82fA==}
@@ -3342,6 +3611,14 @@ packages:
     resolution: {integrity: sha512-QUiRf1+u9wPTL/76GTYlKttDEBWV1ga9ZXW8BG6kfdeyyM8LGPix9gROyg9V2+P0xNyF3X2Go526xKFdMZrHSQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
+  stats-gl@4.2.1:
+    resolution: {integrity: sha512-bopVKdm1JzI7Ms8Y9NvmBzerJ+qh89w5s7aYVk4LDeQgd+u6FvfxVj50xQwpATL1Wz/EV30FIeieTtguS+LfNg==}
+    peerDependencies:
+      three: '*'
+    peerDependenciesMeta:
+      three:
+        optional: true
+
   statuses@2.0.2:
     resolution: {integrity: sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==}
     engines: {node: '>= 0.8'}
@@ -3391,6 +3668,23 @@ packages:
   tar@7.5.19:
     resolution: {integrity: sha512-4LeEWl96twnS2Q7Bz4MGqgazLqO+hJN63GZxXoIqh1T3VweYD997gbU1ItNsQafqqXTXd5WFyFdReLtwvRBNiw==}
     engines: {node: '>=18'}
+
+  three-custom-shader-material@6.4.0:
+    resolution: {integrity: sha512-dIbkwX1P4DcHMOZrywW+/TDp5qJhlyU6NP/2kmHw91UqC+TrK4JSBtAV3qGc6UnkqSOmR1i0O+Yz5EnTp2aQ1g==}
+    peerDependencies:
+      '@react-three/fiber': '>=8.0'
+      react: '>=18.0'
+      three: '>=0.159'
+    peerDependenciesMeta:
+      '@react-three/fiber':
+        optional: true
+      react:
+        optional: true
+
+  three-mesh-bvh@0.9.10:
+    resolution: {integrity: sha512-UOlTgPIeqUURcwaG8knxvBaruwZlC4X3/WSHEFO7rYvMVv/YNUrkfFEszvfj36pXV88dCHoHNnIp0PifkirnTQ==}
+    peerDependencies:
+      three: '>= 0.159.0'
 
   three-stdlib@2.36.1:
     resolution: {integrity: sha512-XyGQrFmNQ5O/IoKm556ftwKsBg11TIb301MB5dWNicziQBEs2g3gtOYIf7pFiLa0zI2gUwhtCjv9fmjnxKZ1Cg==}
@@ -3445,6 +3739,19 @@ packages:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
     hasBin: true
 
+  troika-three-text@0.52.4:
+    resolution: {integrity: sha512-V50EwcYGruV5rUZ9F4aNsrytGdKcXKALjEtQXIOBfhVoZU9VAqZNIoGQ3TMiooVqFAbR1w15T+f+8gkzoFzawg==}
+    peerDependencies:
+      three: '>=0.125.0'
+
+  troika-three-utils@0.52.4:
+    resolution: {integrity: sha512-NORAStSVa/BDiG52Mfudk4j1FG4jC4ILutB3foPnfGbOeIs9+G5vZLa0pnmnaftZUGm4UwSoqEpWdqvC7zms3A==}
+    peerDependencies:
+      three: '>=0.125.0'
+
+  troika-worker-utils@0.52.0:
+    resolution: {integrity: sha512-W1CpvTHykaPH5brv5VHLfQo9D1OYuo0cSBEUQFFT/nBUzM8iD6Lq2/tgG/f1OelbAS1WtaTPQzE5uM49egnngw==}
+
   ts-morph@25.0.1:
     resolution: {integrity: sha512-QJEiTdnz1YjrB3JFhd626gX4rKHDLSjSVMvGGG4v7ONc3RBwa0Eei98G9AT9uNFDMtV54JyuXsFeC+OH0n6bXQ==}
 
@@ -3461,6 +3768,9 @@ packages:
   tuf-js@4.1.0:
     resolution: {integrity: sha512-50QV99kCKH5P/Vs4E2Gzp7BopNV+KzTXqWeaxrfu5IQJBOULRsTIS9seSsOVT8ZnGXzCyx55nYWAi4qJzpZKEQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
+
+  tweakpane@4.0.5:
+    resolution: {integrity: sha512-rxEXdSI+ArlG1RyO6FghC4ZUX8JkEfz8F3v1JuteXSV0pEtHJzyo07fcDG+NsJfN5L39kSbCYbB9cBGHyuI/tQ==}
 
   type-fest@4.41.0:
     resolution: {integrity: sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==}
@@ -3563,6 +3873,9 @@ packages:
 
   weak-lru-cache@1.2.2:
     resolution: {integrity: sha512-DEAoo25RfSYMuTGc9vPJzZcZullwIqRDSI9LOy+fkCJPi6hykCnfKaXTuPBDuXAUcqHXyOgFtHNp/kB2FjYHbw==}
+
+  webgl-sdf-generator@1.1.1:
+    resolution: {integrity: sha512-9Z0JcMTFxeE+b2x1LJTdnaT8rT8aEp7MVxkNwoycNmJWwPdzoXzMh0BjJSh/AEFP+KPYZUli814h8bJZFIZ2jA==}
 
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -4104,6 +4417,8 @@ snapshots:
   '@csstools/css-tokenizer@3.0.4': {}
 
   '@dimforge/rapier3d-compat@0.12.0': {}
+
+  '@dimforge/rapier3d-compat@0.19.3': {}
 
   '@emnapi/core@1.11.1':
     dependencies:
@@ -4650,6 +4965,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@monogrid/gainmap-js@3.4.0(three@0.182.0)':
+    dependencies:
+      promise-worker-transferable: 1.0.4
+      three: 0.182.0
+
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.4':
     optional: true
 
@@ -4916,6 +5236,16 @@ snapshots:
       '@parcel/watcher-win32-x64': 2.5.6
     optional: true
 
+  '@pmndrs/cannon-worker-api@2.4.0(three@0.182.0)':
+    dependencies:
+      three: 0.182.0
+
+  '@pmndrs/vanilla@1.25.0(three@0.182.0)':
+    dependencies:
+      glsl-noise: 0.0.0
+      meshline: 3.3.1(three@0.182.0)
+      three: 0.182.0
+
   '@rollup/rollup-android-arm-eabi@4.60.2':
     optional: true
 
@@ -5066,6 +5396,19 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
+  '@theatre/core@0.7.2':
+    dependencies:
+      '@theatre/dataverse': 0.7.2
+
+  '@theatre/dataverse@0.7.2':
+    dependencies:
+      lodash-es: 4.18.1
+
+  '@theatre/studio@0.7.2(@theatre/core@0.7.2)':
+    dependencies:
+      '@theatre/core': 0.7.2
+      '@theatre/dataverse': 0.7.2
+
   '@ts-morph/common@0.26.1':
     dependencies:
       fast-glob: 3.3.3
@@ -5084,6 +5427,8 @@ snapshots:
     dependencies:
       '@tufjs/canonical-json': 2.0.0
       minimatch: 10.2.5
+
+  '@tweakpane/core@2.0.5': {}
 
   '@tweenjs/tween.js@23.1.3': {}
 
@@ -5177,6 +5522,17 @@ snapshots:
       '@algolia/requester-fetch': 5.52.0
       '@algolia/requester-node-http': 5.52.0
 
+  angular-three-cannon@4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@pmndrs/cannon-worker-api@2.4.0(three@0.182.0))(cannon-es-debugger@1.0.0(cannon-es@0.20.0)(three@0.182.0)(typescript@6.0.3))(cannon-es@0.20.0)(three@0.182.0):
+    dependencies:
+      '@angular/common': 22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core': 22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2)
+      '@pmndrs/cannon-worker-api': 2.4.0(three@0.182.0)
+      cannon-es: 0.20.0
+      three: 0.182.0
+      tslib: 2.8.1
+    optionalDependencies:
+      cannon-es-debugger: 1.0.0(cannon-es@0.20.0)(three@0.182.0)(typescript@6.0.3)
+
   angular-three-plugin@4.2.2(three@0.182.0):
     dependencies:
       '@nx/devkit': 21.6.11(nx@21.6.11)
@@ -5197,6 +5553,63 @@ snapshots:
       - supports-color
       - three
       - utf-8-validate
+
+  angular-three-postprocessing@4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(maath@0.10.8(@types/three@0.182.0)(three@0.182.0))(n8ao@1.10.2(postprocessing@6.39.2(three@0.182.0))(three@0.182.0))(postprocessing@6.39.2(three@0.182.0))(three-stdlib@2.36.1(three@0.182.0))(three@0.182.0):
+    dependencies:
+      '@angular/common': 22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core': 22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2)
+      maath: 0.10.8(@types/three@0.182.0)(three@0.182.0)
+      postprocessing: 6.39.2(three@0.182.0)
+      three: 0.182.0
+      three-stdlib: 2.36.1(three@0.182.0)
+      tslib: 2.8.1
+    optionalDependencies:
+      n8ao: 1.10.2(postprocessing@6.39.2(three@0.182.0))(three@0.182.0)
+
+  angular-three-rapier@4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@dimforge/rapier3d-compat@0.19.3)(three-stdlib@2.36.1(three@0.182.0))(three@0.182.0):
+    dependencies:
+      '@angular/common': 22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core': 22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2)
+      '@dimforge/rapier3d-compat': 0.19.3
+      three: 0.182.0
+      three-stdlib: 2.36.1(three@0.182.0)
+      tslib: 2.8.1
+
+  angular-three-soba@4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@monogrid/gainmap-js@3.4.0(three@0.182.0))(@pmndrs/vanilla@1.25.0(three@0.182.0))(camera-controls@2.10.1(three@0.182.0))(hls.js@1.6.16)(maath@0.10.8(@types/three@0.182.0)(three@0.182.0))(meshline@3.3.1(three@0.182.0))(stats-gl@4.2.1(three@0.182.0))(three-custom-shader-material@6.4.0(three@0.182.0))(three-mesh-bvh@0.9.10(three@0.182.0))(three-stdlib@2.36.1(three@0.182.0))(three@0.182.0)(troika-three-text@0.52.4(three@0.182.0)):
+    dependencies:
+      '@angular/common': 22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core': 22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2)
+      three: 0.182.0
+      three-stdlib: 2.36.1(three@0.182.0)
+      tslib: 2.8.1
+    optionalDependencies:
+      '@monogrid/gainmap-js': 3.4.0(three@0.182.0)
+      '@pmndrs/vanilla': 1.25.0(three@0.182.0)
+      camera-controls: 2.10.1(three@0.182.0)
+      hls.js: 1.6.16
+      maath: 0.10.8(@types/three@0.182.0)(three@0.182.0)
+      meshline: 3.3.1(three@0.182.0)
+      stats-gl: 4.2.1(three@0.182.0)
+      three-custom-shader-material: 6.4.0(three@0.182.0)
+      three-mesh-bvh: 0.9.10(three@0.182.0)
+      troika-three-text: 0.52.4(three@0.182.0)
+
+  angular-three-theatre@4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@theatre/core@0.7.2)(@theatre/studio@0.7.2(@theatre/core@0.7.2))(three@0.182.0):
+    dependencies:
+      '@angular/common': 22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core': 22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2)
+      '@theatre/core': 0.7.2
+      '@theatre/studio': 0.7.2(@theatre/core@0.7.2)
+      three: 0.182.0
+      tslib: 2.8.1
+
+  angular-three-tweakpane@4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(@tweakpane/core@2.0.5)(tweakpane@4.0.5):
+    dependencies:
+      '@angular/common': 22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core': 22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2)
+      '@tweakpane/core': 2.0.5
+      tslib: 2.8.1
+      tweakpane: 4.0.5
 
   angular-three@4.2.2(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(ngxtension@7.2.0(@angular/common@22.0.4(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.4(@angular/compiler@22.0.4)(rxjs@7.8.2))(rxjs@7.8.2))(three@0.182.0):
     dependencies:
@@ -5263,6 +5676,10 @@ snapshots:
       postcss: 8.5.16
       postcss-media-query-parser: 0.2.3
       postcss-safe-parser: 7.0.1(postcss@8.5.16)
+
+  bidi-js@1.0.3:
+    dependencies:
+      require-from-string: 2.0.2
 
   bl@4.1.0:
     dependencies:
@@ -5338,7 +5755,20 @@ snapshots:
       call-bind-apply-helpers: 1.0.2
       get-intrinsic: 1.3.0
 
+  camera-controls@2.10.1(three@0.182.0):
+    dependencies:
+      three: 0.182.0
+
   caniuse-lite@1.0.30001800: {}
+
+  cannon-es-debugger@1.0.0(cannon-es@0.20.0)(three@0.182.0)(typescript@6.0.3):
+    dependencies:
+      cannon-es: 0.20.0
+      three: 0.182.0
+    optionalDependencies:
+      typescript: 6.0.3
+
+  cannon-es@0.20.0: {}
 
   chalk@4.1.2:
     dependencies:
@@ -5808,6 +6238,8 @@ snapshots:
       minipass: 7.1.3
       path-scurry: 2.0.2
 
+  glsl-noise@0.0.0: {}
+
   gopd@1.2.0: {}
 
   graceful-fs@4.2.11: {}
@@ -5823,6 +6255,8 @@ snapshots:
   hasown@2.0.4:
     dependencies:
       function-bind: 1.1.2
+
+  hls.js@1.6.16: {}
 
   hono@4.12.27: {}
 
@@ -5899,6 +6333,8 @@ snapshots:
 
   ignore@5.3.2: {}
 
+  immediate@3.0.6: {}
+
   immutable@5.1.9: {}
 
   index-to-position@1.2.0: {}
@@ -5938,6 +6374,8 @@ snapshots:
   is-number@7.0.0: {}
 
   is-potential-custom-element-name@1.0.1: {}
+
+  is-promise@2.2.2: {}
 
   is-promise@4.0.0: {}
 
@@ -6027,6 +6465,10 @@ snapshots:
   libvips@0.0.2:
     optional: true
 
+  lie@3.3.0:
+    dependencies:
+      immediate: 3.0.6
+
   lines-and-columns@2.0.3: {}
 
   listr2@10.2.1:
@@ -6055,6 +6497,8 @@ snapshots:
       '@lmdb/lmdb-win32-x64': 3.5.4
     optional: true
 
+  lodash-es@4.18.1: {}
+
   log-symbols@4.1.0:
     dependencies:
       chalk: 4.1.2
@@ -6080,6 +6524,11 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
+
+  maath@0.10.8(@types/three@0.182.0)(three@0.182.0):
+    dependencies:
+      '@types/three': 0.182.0
+      three: 0.182.0
 
   magic-string@0.30.21:
     dependencies:
@@ -6111,6 +6560,10 @@ snapshots:
   merge-descriptors@2.0.0: {}
 
   merge2@1.4.1: {}
+
+  meshline@3.3.1(three@0.182.0):
+    dependencies:
+      three: 0.182.0
 
   meshoptimizer@0.22.0: {}
 
@@ -6211,6 +6664,11 @@ snapshots:
     optional: true
 
   mute-stream@3.0.0: {}
+
+  n8ao@1.10.2(postprocessing@6.39.2(three@0.182.0))(three@0.182.0):
+    dependencies:
+      postprocessing: 6.39.2(three@0.182.0)
+      three: 0.182.0
 
   nanoid@3.3.15: {}
 
@@ -6554,6 +7012,10 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
+  postprocessing@6.39.2(three@0.182.0):
+    dependencies:
+      three: 0.182.0
+
   potpack@1.0.2: {}
 
   prettier@3.9.4: {}
@@ -6566,6 +7028,11 @@ snapshots:
       react-is-19: react-is@19.2.7
 
   proc-log@6.1.0: {}
+
+  promise-worker-transferable@1.0.4:
+    dependencies:
+      is-promise: 2.2.2
+      lie: 3.3.0
 
   property-graph@3.0.0: {}
 
@@ -6915,6 +7382,10 @@ snapshots:
     dependencies:
       minipass: 7.1.3
 
+  stats-gl@4.2.1(three@0.182.0):
+    optionalDependencies:
+      three: 0.182.0
+
   statuses@2.0.2: {}
 
   stdin-discarder@0.3.2: {}
@@ -6972,6 +7443,14 @@ snapshots:
       minizlib: 3.1.0
       yallist: 5.0.0
 
+  three-custom-shader-material@6.4.0(three@0.182.0):
+    dependencies:
+      three: 0.182.0
+
+  three-mesh-bvh@0.9.10(three@0.182.0):
+    dependencies:
+      three: 0.182.0
+
   three-stdlib@2.36.1(three@0.178.0):
     dependencies:
       '@types/draco3d': 1.4.10
@@ -6981,6 +7460,16 @@ snapshots:
       fflate: 0.6.10
       potpack: 1.0.2
       three: 0.178.0
+
+  three-stdlib@2.36.1(three@0.182.0):
+    dependencies:
+      '@types/draco3d': 1.4.10
+      '@types/offscreencanvas': 2019.7.3
+      '@types/webxr': 0.5.24
+      draco3d: 1.5.7
+      fflate: 0.6.10
+      potpack: 1.0.2
+      three: 0.182.0
 
   three@0.178.0: {}
 
@@ -7022,6 +7511,20 @@ snapshots:
 
   tree-kill@1.2.2: {}
 
+  troika-three-text@0.52.4(three@0.182.0):
+    dependencies:
+      bidi-js: 1.0.3
+      three: 0.182.0
+      troika-three-utils: 0.52.4(three@0.182.0)
+      troika-worker-utils: 0.52.0
+      webgl-sdf-generator: 1.1.1
+
+  troika-three-utils@0.52.4(three@0.182.0):
+    dependencies:
+      three: 0.182.0
+
+  troika-worker-utils@0.52.0: {}
+
   ts-morph@25.0.1:
     dependencies:
       '@ts-morph/common': 0.26.1
@@ -7047,6 +7550,8 @@ snapshots:
       make-fetch-happen: 15.0.6
     transitivePeerDependencies:
       - supports-color
+
+  tweakpane@4.0.5: {}
 
   type-fest@4.41.0: {}
 
@@ -7111,6 +7616,8 @@ snapshots:
 
   weak-lru-cache@1.2.2:
     optional: true
+
+  webgl-sdf-generator@1.1.1: {}
 
   webidl-conversions@3.0.1: {}
 
