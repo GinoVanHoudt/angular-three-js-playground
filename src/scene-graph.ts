@@ -3,7 +3,6 @@ import {
   Component,
   viewChild,
   ElementRef,
-  ChangeDetectionStrategy,
 } from '@angular/core';
 import { extend, beforeRender } from 'angular-three';
 import { Mesh, BoxGeometry, MeshBasicMaterial } from 'three';

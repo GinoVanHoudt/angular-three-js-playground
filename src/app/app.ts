@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NgtCanvas, NgtCanvasImpl, NgtCanvasContent } from 'angular-three/dom';
 import { SceneGraph } from '../scene-graph';
@@ -9,6 +9,4 @@ import { SceneGraph } from '../scene-graph';
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
-export class App {
-  protected readonly title = signal('angular-threejs-playground');
-}
+export class App {}
