@@ -1,6 +1,15 @@
 :host {
   display: block;
-  height: 100%;
-  width: 100%;
-  background: black;
+  min-height: 100vh;
+  color: #eee;
+  background: gray;
+  font-family: sans-serif;
+}
+
+nav {
+  padding: 1rem;
+}
+
+a {
+  color: whitesmoke;
 }
