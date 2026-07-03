@@ -61,4 +61,10 @@ Key NGT conventions to teach and apply:
   then `.nativeElement`.
 - Element inputs map to Three.js properties (`color="hotpink"`, `[position]="[x, y, z]"`).
 
+For anything beyond these basics — the full NGT building-block reference (exact signatures, the
+`NgtCanvas` input list, `attach`/`*args`, `injectStore` + store properties, events, loaders,
+`pick`/`omit`/`is`, portals, and the soba/postprocessing/rapier/theatre/tweakpane packages) — use
+the **`angular-three-reference`** skill (`.claude/skills/angular-three-reference/`). Prefer it over
+recalling NGT APIs from memory when looking up or explaining a building block.
+
 Angular and TypeScript coding conventions are defined in **`.claude/CLAUDE.md`** — follow them.
